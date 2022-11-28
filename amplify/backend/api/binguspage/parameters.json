@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "binguspage",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authbinguspage0af5c1a5",
+      "Outputs.UserPoolId"
+    ]
+  }
+}

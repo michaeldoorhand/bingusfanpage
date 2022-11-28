@@ -65,7 +65,7 @@ function App() {
              around and being a silly boy. Some of my favorite activities include knocking over glasses, chasing string, and making biscuits on the lap of this websites creator.
               As far as my ambitions go, my dream in life is to aid and abet in the overthrow of the U.S. government. My secondary goal in life is to release my Latin claymation love story "Lorem Ipsum" to Bollywood.
             Overall im just your average bing trying to find his way in life. If you're interested to hear more about me or to follow my progress with these goals feel free to follow my 
-            blog "Word on the bing." I hope you enjoy my site!  this is another test
+            blog "Word on the bing." I hope you enjoy my site!
             </h2>
             </div>
           </div>

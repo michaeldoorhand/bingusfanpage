@@ -69,7 +69,7 @@ function App() {
             <br />
             <Link to="/otters" className="header-text">
               {" "}
-              <div>&nbsp;&nbsp;</div>What is bingus' favorite animal?
+              What is bingus' favorite animal?
             </Link>
           </div>
         </ScrollToTop>

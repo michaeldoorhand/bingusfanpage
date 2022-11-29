@@ -12,7 +12,12 @@ Amplify.configure(awsconfig) // Configures the Amplify libraries with the cloud 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<App />} />
+          <Route path="gallerypage" element={<Gallerypage />} />
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 

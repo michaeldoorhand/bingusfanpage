@@ -8,6 +8,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "@aws-amplify/ui-react/styles.css"; // Ensure React UI libraries are styled correctly
 import { Amplify } from 'aws-amplify'
 import awsconfig from './aws-exports'
+import OtterCamComponent from './components/OtterCamComponent';
 Amplify.configure(awsconfig) // Configures the Amplify libraries with the cloud backend set up via the Amplify CLI
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -17,6 +18,7 @@ root.render(
       <Routes>
         <Route path="/" element={<App />} />
           <Route path="gallerypage" element={<Gallerypage />} />
+          <Route path="otters" element={<OtterCamComponent />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

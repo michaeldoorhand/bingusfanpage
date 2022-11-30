@@ -1,0 +1,29 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-binguspage-dev-152150-authRole",
+      "UnauthRoleArn": "arn:aws:iam::771838923120:role/amplify-binguspage-dev-152150-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::771838923120:role/amplify-binguspage-dev-152150-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-binguspage-dev-152150-deployment",
+      "UnauthRoleName": "amplify-binguspage-dev-152150-unauthRole",
+      "StackName": "amplify-binguspage-dev-152150",
+      "StackId": "arn:aws:cloudformation:us-east-1:771838923120:stack/amplify-binguspage-dev-152150/ad65ee10-6f62-11ed-ae07-0e24e64524eb",
+      "AmplifyAppId": "d3hitwettg78v"
+    },
+    "categories": {
+      "auth": {
+        "binguspage0af5c1a5": {}
+      },
+      "api": {
+        "binguspage": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d3hitwettg78v",
+          "type": "cicd"
+        }
+      }
+    }
+  }
+}
